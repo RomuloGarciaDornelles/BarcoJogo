@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_InimigoBarcoMeio",
+  "%Name":"obj_game_manager",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_InimigoBarcoMeio",
+  "name":"obj_game_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Barco Inimigo",
-    "path":"folders/Objetos/Barco Inimigo.yy",
+    "name":"Misc",
+    "path":"folders/Objetos/Misc.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -31,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_InimigoBarcoMeio",
-    "path":"sprites/spr_InimigoBarcoMeio/spr_InimigoBarcoMeio.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
