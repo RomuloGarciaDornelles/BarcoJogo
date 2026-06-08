@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_BarcoMeio",
+  "%Name":"obj_balainimigo",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_BarcoMeio","path":"objects/obj_BarcoMeio/obj_BarcoMeio.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_BarcoMeio",
+  "name":"obj_balainimigo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Barco Principal",
-    "path":"folders/Objetos/Barco Principal.yy",
+    "name":"Munição",
+    "path":"folders/Objetos/Munição.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_BarcoMeio",
-    "path":"sprites/spr_BarcoMeio/spr_BarcoMeio.yy",
+    "name":"spr_bala",
+    "path":"sprites/spr_bala/spr_bala.yy",
   },
   "spriteMaskId":null,
   "visible":true,

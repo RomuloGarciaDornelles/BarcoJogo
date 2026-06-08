@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_2064E707","path":"rooms/Ocean/Ocean.yy",},
     {"name":"inst_697AFB95","path":"rooms/Ocean/Ocean.yy",},
     {"name":"inst_4C24EABE","path":"rooms/Ocean/Ocean.yy",},
     {"name":"inst_37451157","path":"rooms/Ocean/Ocean.yy",},
@@ -14,6 +13,7 @@
     {"name":"inst_DF91C24","path":"rooms/Ocean/Ocean.yy",},
     {"name":"inst_6AC6CA1D","path":"rooms/Ocean/Ocean.yy",},
     {"name":"inst_2C406153","path":"rooms/Ocean/Ocean.yy",},
+    {"name":"inst_2064E707","path":"rooms/Ocean/Ocean.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -42,7 +42,7 @@
         {"$GMRSpriteGraphic":"","%Name":"graphic_51B9E4A4","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_51B9E4A4","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":21.34375,"scaleY":10.015626,"spriteId":{"name":"spr_marnormal","path":"sprites/spr_marnormal/spr_marnormal.yy",},"x":683.0,"y":284.50003,},
       ],"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"AGUA2","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"barcoinimigo","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"","%Name":"inst_2064E707","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2064E707","objectId":{"name":"obj_InimigoBarcoMeio","path":"objects/obj_InimigoBarcoMeio/obj_InimigoBarcoMeio.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5188875,"scaleY":3.46875,"x":804.6544,"y":88.88629,},
+        {"$GMRInstance":"","%Name":"inst_2064E707","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2064E707","objectId":{"name":"obj_InimigoBarcoMeio","path":"objects/obj_InimigoBarcoMeio/obj_InimigoBarcoMeio.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5188875,"scaleY":3.46875,"x":884.0,"y":184.0,},
         {"$GMRInstance":"","%Name":"inst_6AC6CA1D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6AC6CA1D","objectId":{"name":"obj_InimigoBarcoFrente","path":"objects/obj_InimigoBarcoFrente/obj_InimigoBarcoFrente.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.8203125,"scaleY":3.3463326,"x":1029.8633,"y":92.80365,},
         {"$GMRInstance":"","%Name":"inst_2C406153","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C406153","objectId":{"name":"obj_InimigoBarcoTras","path":"objects/obj_InimigoBarcoTras/obj_InimigoBarcoTras.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.957161,"scaleY":3.484375,"x":615.3961,"y":87.88629,},
       ],"layers":[],"name":"barcoinimigo","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

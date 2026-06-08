@@ -1,16 +1,14 @@
-// "other" significa "o outro objeto envolvido na colisão" (ou seja, o inimigo)
-other.vida_atual -= 20; // Tira 20 de vida do inimigo a cada acerto
+// --- SISTEMA DE VIDA CENTRALIZADA ---
 
-// Destrói a bola de canhão para ela não atravessar o barco direto
+// Se a bala bater no barco da frente ou de trás, ela manda o dano para o objeto do Meio
+if (other.object_index == obj_InimigoBarcoFrente || other.object_index == obj_InimigoBarcoTras) {
+    if (instance_exists(obj_InimigoBarcoMeio)) {
+        obj_InimigoBarcoMeio.vida_atual -= 20;
+    }
+} else {
+    // Se bater direto no meio, tira a vida dele normalmente
+    other.vida_atual -= 20;
+}
+
+// Destrói a bola de canhão
 instance_destroy();
-
-// Velocidade da bala (mude o número para ser mais rápida ou mais lenta)
-speed = 12; 
-
-// Direção do tiro:
-// Se o seu jogo é de lado (Jogador na esquerda, Inimigo na direita):
-direction = 0; 
-
-// SE o seu jogo for com o jogador embaixo e o inimigo no fundo da tela, 
-// apague a linha de cima e use esta:
-// direction = 90;

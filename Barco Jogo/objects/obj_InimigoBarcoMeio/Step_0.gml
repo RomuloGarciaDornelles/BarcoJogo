@@ -1,13 +1,15 @@
+// Se a vida do navio chegar a 0, destrói todas as partes dele
 if (vida_atual <= 0) {
-    // Aqui o inimigo foi derrotado!
+    // Destrói a parte da frente que estiver na tela
+    if (instance_exists(obj_InimigoBarcoFrente)) {
+        instance_destroy(obj_InimigoBarcoFrente);
+    }
     
-    // Deleta o barco inimigo da tela
+    // Destrói a parte de trás que estiver na tela
+    if (instance_exists(obj_InimigoBarcoTras)) {
+        instance_destroy(obj_InimigoBarcoTras);
+    }
+    
+    // Destrói a si mesmo (o meio)
     instance_destroy();
-    
-    // Avança para a próxima sala (que pode ser a sala de upgrades)
-    // Se vocês criarem uma sala chamada "rm_upgrade", o código seria:
-    // room_goto(rm_upgrade);
-    
-    // Por enquanto, vamos só dar um aviso na tela de que ele morreu
-    show_message("Navio derrotado! Hora do Tesouro.");
 }

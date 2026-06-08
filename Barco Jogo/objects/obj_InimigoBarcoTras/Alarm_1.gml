@@ -1,0 +1,1 @@
+// Bloqueia o tiro herdado do pai para não atirar 3 vezes

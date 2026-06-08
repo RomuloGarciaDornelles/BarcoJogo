@@ -1,7 +1,13 @@
-// 1. Desenha o próprio barco na tela
+// 1. Desenha o próprio barco na tela normalmente
 draw_self();
 
-// 2. Desenha a barra de vida um pouco acima do barco
-// x - 50 e x + 50 controlam a largura da barra. 
-// y - 80 e y - 70 controlam a altura onde ela vai ficar.
-draw_healthbar(x - 50, y - 80, x + 50, y - 70, vida_atual, c_black, c_red, c_green, 0, true, true);
+// 2. Ajuste manual de posição para centralizar perfeitamente no navio inteiro
+// Somamos +180 ao X para empurrar a barra mais para a direita
+var centro_x = x + 120;
+
+// Subimos um pouco mais a barra (mudando de -30 para -70) para ela flutuar acima dos mastros
+var topo_y = y - 40;
+var fundo_y = y - 25;
+
+// Desenha a barra larga e centralizada por cima do barco
+draw_healthbar(centro_x - 150, topo_y, centro_x + 150, fundo_y, vida_atual, c_black, c_red, c_green, 0, true, true);
