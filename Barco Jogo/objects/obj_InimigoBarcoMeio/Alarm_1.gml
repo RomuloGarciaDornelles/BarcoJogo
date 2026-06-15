@@ -2,8 +2,7 @@
 
 // Criamos a bala usando instance_create_depth em vez de layer.
 // Usamos "depth - 10" para garantir que a bala fique visualmente NA FRENTE do barco inimigo
-//var tiro_inimigo = instance_create_depth(x, y, depth - 10, obj_balainimigo);
-var tiro_inimigo = instance_create_layer(x, y, "barcoinimigo", obj_balainimigo);
+var tiro_inimigo = instance_create_layer(x, y, "Instances", obj_balainimigo);
 tiro_inimigo.depth = depth-900000
 
 // --- DIREÇÃO DO TIRO (MIRA FIXA NO SEU BARCO) ---

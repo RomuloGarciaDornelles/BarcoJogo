@@ -8,16 +8,5 @@ y += lengthdir_y(velocidade_tiro, direcao_tiro);
 image_xscale = y / room_height;
 image_yscale = y / room_height;
 
-// --- SISTEMA DE CAMADAS DINÂMICO ---
-// Faz a bala passar por trás das ondas baseado na altura (Y)
-if (y > 450) {
-    layer = layer_get_id("BarcoPrincipal");
-} else if (y <= 450 && y > 400) {
-    layer = layer_get_id("AGUA5");
-} else if (y <= 400 && y > 350) {
-    layer = layer_get_id("AGUA4");
-} else if (y <= 350 && y > 300) {
-    layer = layer_get_id("AGUA3");
-} else if (y <= 300) {
-    layer = layer_get_id("barcoinimigo");
-}
+// Garante que a bala fique na frente de tudo
+depth = -10000;
