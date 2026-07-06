@@ -1,5 +1,5 @@
 {
-  "$GMiOSOptions":"v1",
+  "$GMiOSOptions":"",
   "%Name":"iOS",
   "name":"iOS",
   "option_ios_build_number":0,

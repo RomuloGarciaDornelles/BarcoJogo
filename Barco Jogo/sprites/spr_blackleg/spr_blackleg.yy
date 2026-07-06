@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_blackleg",
   "bboxMode":0,
   "bbox_bottom":36,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"c1ea798d-ee25-4ff0-b0f3-8e63fa3eadbe","name":"c1ea798d-ee25-4ff0-b0f3-8e63fa3eadbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c1ea798d-ee25-4ff0-b0f3-8e63fa3eadbe","name":"c1ea798d-ee25-4ff0-b0f3-8e63fa3eadbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"v1",
+    "$GMSequence":"",
     "%Name":"spr_blackleg",
     "autoRecord":true,
     "backdropHeight":768,

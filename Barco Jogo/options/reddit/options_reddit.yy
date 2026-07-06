@@ -1,5 +1,5 @@
 {
-  "$GMRedditOptions":"v2",
+  "$GMRedditOptions":"",
   "%Name":"Reddit",
   "name":"Reddit",
   "option_reddit_devvit_project_id":"${project_name}",
