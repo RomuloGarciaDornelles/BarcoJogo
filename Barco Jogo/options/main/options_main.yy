@@ -2,8 +2,6 @@
   "$GMMainOptions":"",
   "%Name":"Main",
   "name":"Main",
-  
-  
   "option_author":"",
   "option_collision_compatibility":false,
   "option_copy_on_write_enabled":false,
@@ -11,12 +9,7 @@
   "option_gameguid":"3872af31-ed15-4b2e-836e-fc636451abac",
   "option_gameid":"0",
   "option_game_speed":60,
-  
-  
-  
-  
   "option_mips_for_3d_textures":false,
-  
   "option_sci_usesci":false,
   "option_spine_licence":false,
   "option_steam_app_id":"0",

@@ -48,6 +48,7 @@
     {"name":"spr_blackleg","order":5,"path":"sprites/spr_blackleg/spr_blackleg.yy",},
     {"name":"spr_doctor","order":4,"path":"sprites/spr_doctor/spr_doctor.yy",},
     {"name":"spr_god","order":3,"path":"sprites/spr_god/spr_god.yy",},
+    {"name":"spr_marinvertido","order":1,"path":"sprites/spr_marinvertido/spr_marinvertido.yy",},
     {"name":"spr_zorro","order":1,"path":"sprites/spr_zorro/spr_zorro.yy",},
   ],
 }

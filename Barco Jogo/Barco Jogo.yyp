@@ -39,7 +39,6 @@
     {"$GMFolder":"","%Name":"Personagens","folderPath":"folders/Sprites/Personagens.yy","name":"Personagens","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"One Piece","folderPath":"folders/Sprites/Personagens/One Piece.yy","name":"One Piece","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -77,6 +76,7 @@
     {"id":{"name":"spr_guardarmunicao","path":"sprites/spr_guardarmunicao/spr_guardarmunicao.yy",},},
     {"id":{"name":"spr_InimigoBarcoMeio","path":"sprites/spr_InimigoBarcoMeio/spr_InimigoBarcoMeio.yy",},},
     {"id":{"name":"spr_marnormal","path":"sprites/spr_marnormal/spr_marnormal.yy",},},
+    {"id":{"name":"spr_marinvertido","path":"sprites/spr_marinvertido/spr_marinvertido.yy",},},
     {"id":{"name":"spr_ruffy","path":"sprites/spr_ruffy/spr_ruffy.yy",},},
     {"id":{"name":"spr_zorro","path":"sprites/spr_zorro/spr_zorro.yy",},},
   ],
