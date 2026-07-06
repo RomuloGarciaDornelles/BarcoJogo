@@ -1,3 +1,6 @@
+// Faz o barco flutuar suavemente. 
+y = start_y + sin(current_time / 200) * 3;
+
 // Se a vida do navio chegar a 0, destrói todas as partes dele
 if (vida_atual <= 0) {
     // Destrói a parte da frente que estiver na tela

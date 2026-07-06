@@ -1,3 +1,8 @@
+// Faz o barco flutuar suavemente. 
+// O 'current_time / 200' dita a velocidade da maré.
+// O '* 3' dita a altura das ondas (quantos pixels ele sobe/desce).
+y = start_y + sin(current_time / 200) * 3;
+
 // --- VERIFICAÇÃO DE MORTE COM ATRASO ---
 if (vida_atual <= 0) {
     // 1. Destrói as partes do barco do jogador se elas existirem na tela
