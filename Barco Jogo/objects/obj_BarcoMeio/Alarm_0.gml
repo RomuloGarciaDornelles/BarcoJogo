@@ -5,4 +5,3 @@ show_message("Você morreu!");
 
 // Reinicia o jogo após clicar em OK
 room_restart();
-//teste
